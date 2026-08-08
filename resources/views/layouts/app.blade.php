@@ -4,7 +4,77 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@yield('title', config('app.name', 'Laravel'))</title>
-  <meta name="description" content="Cambridge Guest House in Mandaue, Cebu. Clean, comfortable queen-bed rooms with complimentary breakfast, fiber Wi-Fi, free parking, AC and cable TV. Book your stay today." />
+  <meta name="description" content="@yield('description', 'Cambridge Guest House in Mandaue, Cebu. Clean, comfortable queen-bed rooms with complimentary breakfast, fiber Wi-Fi, free parking, AC and cable TV. Book your stay today.')" />
+  <meta name="keywords" content="Cambridge Guest House, guest house Mandaue, hotel Mandaue Cebu, affordable lodging Cebu, family room Cebu, budget hotel near Mactan, Cambaro Mandaue accommodation" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="Cambridge Guest House" />
+  <meta name="theme-color" content="#7b1317" />
+  <link rel="canonical" href="@yield('canonical', url()->current())" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Cambridge Guest House" />
+  <meta property="og:title" content="@yield('og_title', 'Cambridge Guest House — Comfortable Stays in Mandaue, Cebu')" />
+  <meta property="og:description" content="@yield('og_description', 'Clean, comfortable queen-bed rooms with complimentary breakfast, fiber Wi-Fi, free parking, AC and cable TV. Warm Cebuano hospitality in Mandaue, minutes from Mactan.')" />
+  <meta property="og:url" content="@yield('canonical', url()->current())" />
+  <meta property="og:image" content="@yield('og_image', asset('assets/exterior.jpg'))" />
+  <meta property="og:locale" content="en_PH" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="@yield('og_title', 'Cambridge Guest House — Comfortable Stays in Mandaue, Cebu')" />
+  <meta name="twitter:description" content="@yield('og_description', 'Clean, comfortable queen-bed rooms with complimentary breakfast, fiber Wi-Fi, free parking, AC and cable TV. Warm Cebuano hospitality in Mandaue, minutes from Mactan.')" />
+  <meta name="twitter:image" content="@yield('og_image', asset('assets/exterior.jpg'))" />
+
+  <!-- Geo tags (local SEO) -->
+  <meta name="geo.region" content="PH-CEB" />
+  <meta name="geo.placename" content="Mandaue City, Cebu" />
+  <meta name="geo.position" content="10.3459;123.9385" />
+  <meta name="ICBM" content="10.3459, 123.9385" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/icons/favicon.ico') }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/icons/favicon-16x16.png') }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/icons/favicon-32x32.png') }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/icons/apple-touch-icon.png') }}" />
+  <link rel="manifest" href="{{ asset('assets/icons/site.webmanifest') }}" />
+
+  <!-- Structured data: LodgingBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Cambridge Guest House",
+    "image": "{{ asset('assets/exterior.jpg') }}",
+    "logo": "{{ asset('assets/logo.png') }}",
+    "url": "{{ url('/') }}",
+    "telephone": "+639176239188",
+    "priceRange": "₱₱",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C.M. Cabahug, Cambaro",
+      "addressLocality": "Mandaue City",
+      "addressRegion": "Cebu",
+      "postalCode": "6014",
+      "addressCountry": "PH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 10.3459,
+      "longitude": 123.9385
+    },
+    "sameAs": [
+      "https://www.facebook.com/cambridgeguesthouseph/"
+    ],
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi" },
+      { "@type": "LocationFeatureSpecification", "name": "Free Parking" },
+      { "@type": "LocationFeatureSpecification", "name": "Air Conditioning" },
+      { "@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast" },
+      { "@type": "LocationFeatureSpecification", "name": "Cable TV" }
+    ]
+  }
+  </script>
 
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />

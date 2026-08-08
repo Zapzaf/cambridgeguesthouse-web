@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-lg-8">
           <span class="hero-badge mb-4"><i class="bi bi-geo-alt-fill"></i> Mandaue City, Cebu</span>
-          <h1 class="mb-3">Your Comfortable Home Away From Home</h1>
+          <h1 class="mb-3">Cambridge Guest House — Your Comfortable Home Away From Home in Mandaue, Cebu</h1>
           <p class="lead mb-4">Experience warm Cebuano hospitality at Cambridge Guest House — spacious queen-bed rooms, complimentary breakfast, and a prime location just minutes from Mactan Island and central Cebu.</p>
           <div class="d-flex flex-wrap gap-3">
             <a href="#rooms" class="btn btn-brand btn-lg px-4 rounded-pill"><i class="bi bi-door-open me-2"></i>View Rooms</a>
@@ -59,11 +59,11 @@
         <div class="col-lg-6 reveal">
           <div class="row g-3" style="min-height:440px;">
             <div class="col-7">
-              <img src="assets/9b94a340-a412-477b-90e1-b56698fbfd66.png" alt="Cozy hotel bedroom interior" class="about-img" />
+              <img src="assets/9b94a340-a412-477b-90e1-b56698fbfd66.png" loading="lazy" decoding="async" alt="Cozy hotel bedroom interior" class="about-img" />
             </div>
             <div class="col-5 d-flex flex-column gap-3">
-              <img src="assets/67056bd0-546b-4113-bc72-e5ab1cbc5b45.jpg" alt="Hotel lounge area" class="about-img" style="height:48%;" />
-              <img src="assets/d93ef6db-775e-4c84-89c3-44d66b72a5af.jpg" alt="Comfortable hotel room detail" class="about-img" style="height:48%;" />
+              <img src="assets/67056bd0-546b-4113-bc72-e5ab1cbc5b45.jpg" loading="lazy" decoding="async" alt="Hotel lounge area" class="about-img" style="height:48%;" />
+              <img src="assets/d93ef6db-775e-4c84-89c3-44d66b72a5af.jpg" loading="lazy" decoding="async" alt="Comfortable hotel room detail" class="about-img" style="height:48%;" />
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
         <div class="col-md-6 col-lg-5 reveal">
           <div class="room-card">
             <div class="room-img-wrap">
-              <img src="assets/room_double.jpg" alt="Deluxe Family Room with two queen beds" class="room-img" />
+              <img src="assets/room_double.jpg" loading="lazy" decoding="async" alt="Deluxe Family Room with two queen beds" class="room-img" />
               <span class="price-tag">₱2,400 <small>/ night</small></span>
             </div>
             <div class="card-body p-4">
@@ -186,7 +186,7 @@
         <div class="col-md-6 col-lg-5 reveal">
           <div class="room-card">
             <div class="room-img-wrap">
-              <img src="assets/room_triple.jpg" alt="Grand Family Suite with three queen beds" class="room-img" />
+              <img src="assets/room_triple.jpg" loading="lazy" decoding="async" alt="Grand Family Suite with three queen beds" class="room-img" />
               <span class="price-tag">₱3,000 <small>/ night</small></span>
             </div>
             <div class="card-body p-4">
@@ -227,13 +227,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/room_double.jpg" class="modal-room-img" alt="Deluxe room with two queen beds" />
+                <img src="assets/room_double.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Deluxe room with two queen beds" />
               </div>
               <div class="carousel-item">
-                <img src="assets/Family Room.jpg" class="modal-room-img" alt="Deluxe room cozy corner" />
+                <img src="assets/Family Room.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Deluxe room cozy corner" />
               </div>
               <div class="carousel-item">
-                <img src="assets/d93ef6db-775e-4c84-89c3-44d66b72a5af.jpg" class="modal-room-img" alt="Deluxe room bathroom" />
+                <img src="assets/d93ef6db-775e-4c84-89c3-44d66b72a5af.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Deluxe room bathroom" />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselRoom1" data-bs-slide="prev">
@@ -282,13 +282,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/room_triple.jpg" class="modal-room-img" alt="Grand suite with multiple beds" />
+                <img src="assets/room_triple.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Grand suite with multiple beds" />
               </div>
               <div class="carousel-item">
-                <img src="assets/Family Room.jpg" class="modal-room-img" alt="Grand suite spacious interior" />
+                <img src="assets/Family Room.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Grand suite spacious interior" />
               </div>
               <div class="carousel-item">
-                <img src="assets/67056bd0-546b-4113-bc72-e5ab1cbc5b45.jpg" class="modal-room-img" alt="Grand suite seating area" />
+                <img src="assets/67056bd0-546b-4113-bc72-e5ab1cbc5b45.jpg" loading="lazy" decoding="async" class="modal-room-img" alt="Grand suite seating area" />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselRoom2" data-bs-slide="prev">
