@@ -42,8 +42,8 @@
   <!-- Structured data: LodgingBusiness -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
+    "@@context": "https://schema.org",
+    "@@type": "LodgingBusiness",
     "name": "Cambridge Guest House",
     "image": "{{ asset('assets/exterior.jpg') }}",
     "logo": "{{ asset('assets/logo.png') }}",
@@ -51,7 +51,7 @@
     "telephone": "+639176239188",
     "priceRange": "₱₱",
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "C.M. Cabahug, Cambaro",
       "addressLocality": "Mandaue City",
       "addressRegion": "Cebu",
@@ -59,7 +59,7 @@
       "addressCountry": "PH"
     },
     "geo": {
-      "@type": "GeoCoordinates",
+      "@@type": "GeoCoordinates",
       "latitude": 10.3459,
       "longitude": 123.9385
     },
@@ -67,11 +67,11 @@
       "https://www.facebook.com/cambridgeguesthouseph/"
     ],
     "amenityFeature": [
-      { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi" },
-      { "@type": "LocationFeatureSpecification", "name": "Free Parking" },
-      { "@type": "LocationFeatureSpecification", "name": "Air Conditioning" },
-      { "@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast" },
-      { "@type": "LocationFeatureSpecification", "name": "Cable TV" }
+      { "@@type": "LocationFeatureSpecification", "name": "Free Wi-Fi" },
+      { "@@type": "LocationFeatureSpecification", "name": "Free Parking" },
+      { "@@type": "LocationFeatureSpecification", "name": "Air Conditioning" },
+      { "@@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast" },
+      { "@@type": "LocationFeatureSpecification", "name": "Cable TV" }
     ]
   }
   </script>
